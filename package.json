@@ -1,0 +1,23 @@
+{
+  "name": "insomnia-plugin-json-minify",
+  "version": "1.0.0",
+  "description": "Minifies json before sending request",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --silent"
+  },
+  "author": "Keith Cummins",
+  "insomnia": {
+    "name": "insomnia-plugin-json-minify",
+    "displayName": "JSON Minify",
+    "description": "Minifies json before sending request"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dekeyras/insomnia-plugin-json-minify.git"
+  }
+}
