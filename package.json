@@ -1,7 +1,7 @@
 {
   "name": "insomnia-plugin-json-minify",
   "version": "1.0.0",
-  "description": "Minifies json before sending request",
+  "description": "Insomnia plugin that minifies json before sending request",
   "main": "index.js",
   "license": "MIT",
   "scripts": {

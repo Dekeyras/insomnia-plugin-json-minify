@@ -4,7 +4,7 @@ const minifier = (context) => {
     try {
         context.request.setBodyText(JSON.stringify(JSON.parse(body)));
     } catch(error) {
-        console.debug('Payload not valid json, skipping stringify step');
+        console.warn('Payload not valid json, skipping stringify step', error);
     }
 }
 
